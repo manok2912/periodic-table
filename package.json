@@ -1,0 +1,22 @@
+{
+  "homepage": "https://manok2912.github.io/periodic-table",
+  "name": "pt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@barreljs/json-filter": "0.0.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
